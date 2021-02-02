@@ -1,0 +1,93 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    font-family:arial black;
+    color:wheat;
+    line-height:1.6;
+    font-size:15px;
+}
+
+#bike{
+    background-image:url('../png/bike.jpg');
+    background-size:cover;
+    background-position:center;
+    height:150vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 0 20px;
+    text-align:center;
+}
+
+#bike h1{
+    font-size:50px;
+    line-height:1.2;
+}
+
+#bike p{
+    font-size:15px;
+    
+}
+
+
+#bike .button{
+    font-size:18px;
+    text-decoration:none;
+    color:wheat;
+    border:1px solid wheat;
+    padding:5px 10px;
+    border-radius:10px;
+}
+
+#bike .button:hover{
+    background:wheat;
+    color:black;
+}
+
+#sectionA{
+    padding:40px;
+    color:rgb(170, 138, 138);
+    background:rgb(78, 78, 83);
+    padding:10px;
+    text-align:center;
+    font-family:cursive;
+
+}
+
+#sectionB{
+    padding:40;
+    background:rgb(243, 240, 240);
+    color:rgb(0, 0, 0);    
+    padding:10px;
+    text-align:center;
+    font-family:cursive;
+
+}
+
+#sectionC{
+    display:flex;
+    color:black;
+
+}
+
+#sectionC div{
+    padding:40px;
+}
+
+#sectionC .box1, #sectionC .box3{
+    background:rgb(78, 78, 83);
+    color:rgb(170, 138, 138);
+    font-family:cursive;
+}
+
+#sectionC .box2{
+    background:rgb(243, 240, 240);
+    color:rgb(0, 0, 0);    
+    font-family:cursive;
+}
